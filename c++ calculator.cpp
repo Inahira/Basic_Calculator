@@ -31,9 +31,16 @@ int main()
 		cout << a <<" * "<< b <<" = "<<c<<endl;
 	}
 	else if (op == '/')
-	{               
-		c = a / b;
-		cout << a <<" / "<< b <<" = "<<c<<endl;
+	{      
+	    c = a / b;         
+		if (b == 0)
+		{
+			cout <<"ERROR!"<<endl;
+		}
+		else 
+		{
+			cout << a <<" / "<< b <<" = "<<c<<endl;
+		}
 	}
 	else
 	{
