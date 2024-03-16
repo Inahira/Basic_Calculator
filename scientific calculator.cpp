@@ -47,7 +47,17 @@ void power(float a, float b) // for 4. Power
 	cout<<a<<" to the power "<<b<<" = "<<c<<endl;
 }
 // 5. Trigonometric Function
-
+void trigonometry(float a)
+{
+	int choice;
+	cout <<"1. Sine\n";
+    cout <<"2. Cosine\n";
+    cout <<"3. Tangent\n";
+    cout <<"Enter your choice: \n";
+    cin>>choice;
+    
+    
+}
 
 int main()
 {	
@@ -131,7 +141,11 @@ int main()
 	// 5. Trigonometric Function
 	else if (choice == 5)
 	{
-		
+	  float a;
+    
+      cout<<"Enter Your choice: ";
+      cin>>a;
+      
 	}
 	
     // Exponential and Logarithmic Functions
