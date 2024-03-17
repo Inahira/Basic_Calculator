@@ -1,2 +1,1 @@
-# CPP_Code
-C++ Projects
+# Simple Calculator
